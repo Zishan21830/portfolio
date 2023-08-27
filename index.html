@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zishan</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header id="header" class="main-sections">
+      <!-- Logo -->
+      <h3 class="logo uppercase-logo">Z.</h3>
+      <span class="lowercase-logo">Z.</span>
+
+      <!-- Navigation Section Start -->
+      <nav id="navbar" class="center">
+        <ul class="navbar-list">
+          <li class="list-item">
+            <a href="#" class="home-link">Home</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="skill-link">Skills</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="project-link">Projects</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="contact-link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Navigation Section End -->
+
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon">X</ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon">X</ion-icon>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <main id="hero-section">
+      <!-- cursor -->
+      <div id="cursor"></div>
+      <!-- home section start -->
+      <section id="home" class="d-flex">
+        <section class="l-h-section center">
+          <article class="about">
+            <h1>
+              Hello, <br />
+              I am Zishan
+            </h1>
+            <h3>I am a <span>&nbsp;&lt;Frontend Developer&#47;&gt;</span></h3>
+            <p>
+              I am a front-end developer with a passion for creating beautiful
+              and user-friendly web experiences. Proven ability to work
+              independently and as part of a team to deliver high-quality
+              projects on time. Expertise in HTML, CSS, JavaScript, and
+              React.js.
+            </p>
+          </article>
+          <section class="links">
+            <section class="social-links d-flex">
+              <a href="https://www.instagram.com/zishan_saifi21/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a
+                href="https://www.linkedin.com/in/zishan-8b4286274"
+                target="_blank"
+                ><i class="fab fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/Zishan21830" target="_blank"
+                ><i class="fab fab fa-github"></i
+              ></a>
+              <a href="mailto:zishan21830@gmail.com" target="_blank"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </section>
+            <section class="download-cv">
+              <a href="./Assets/CV.pdf" download
+                ><button class="btn">Download CV</button></a
+              >
+            </section>
+          </section>
+        </section>
+        <section class="r-h-section center">
+          <div class="line"></div>
+          <div class="rectangle">
+            <img src="./Assets/zishan1.jpg" alt="image">
+          </div>
+        </section>
+      </section>
+      <!-- home section end -->
+      <!-- skills section start -->
+
+      <section id="skills" class="center">
+        <div class="main-heading">
+          <h1>Skills</h1>
+          <div class="uline"></div>
+        </div>
+        <h4>HTML</h4>
+        <div class="skill border d-flex">
+          <span class="fill html"></span>
+        </div>
+        <h4>CSS</h4>
+        <div class="skill border d-flex">
+          <span class="fill css"></span>
+        </div>
+        <h4>JavaScript</h4>
+        <div class="skill border d-flex">
+          <span class="fill js"></span>
+        </div>
+        <h4>React.js</h4>
+        <div class="skill border d-flex">
+          <span class="fill react"></span>
+        </div>
+      </section>
+      <!-- skills section end -->
+      <!-- projects section start -->
+      <section id="project" class="center">
+        <div class="main-heading">
+          <h1>Projects</h1>
+          <div class="uline"></div>
+        </div>
+        <section class="cards d-flex">
+          <div class="card-details center">
+            <h2>Portfolio</h2>
+            <div class="box">
+              <img src="./Assets/Protfolio.jpg" alt="portfolio" />
+            </div>
+            <a href=""><i class="fab fa-github"></i></a>
+          </div>
+          <div class="card-details border center">
+            <h2>Linkedin Clone</h2>
+            <div class="box">
+              <img src="./Assets/linkedIn.jpg" alt="linkedIn Clone" />
+            </div>
+            <a href=""><i class="fab fa-github"></i></a>
+          </div>
+          <div class="card-details center">
+            <h2>Quiz App</h2>
+            <div class="box border">
+              <img src="./Assets/Quiz.jfif" alt="Quiz App" />
+            </div>
+            <a href=""><i class="fab fa-github"></i></a>
+          </div>
+          <div class="card-details center">
+            <h2>Weather Aplication</h2>
+            <div class="box border">
+              <img src="./Assets/Weather.jpg" alt="Quiz App" />
+            </div>
+            <a href=""><i class="fab fa-github"></i></a>
+          </div>
+        </section>
+      </section>
+      <!-- project section end -->
+      <!-- contact section start -->
+      <section id="contact" class="d-flex">
+        <section class="contact-image">
+          <img src="./Assets/Attached files-cuate.png" alt="" />
+        </section>
+        <section class="contact-form center">
+          <div class="main-heading">
+            <h1>Contact Us</h1>
+            <div class="uline"></div>
+          </div>
+          <!-- <section class="form"> -->
+          <form
+          action="https://formspree.io/f/xdorgyba"
+          method="POST"
+            class="center"
+          >
+            <!-- <label for="name">Name: </label> -->
+            <input
+              type="text"
+              name="username"
+              id="name"
+              placeholder="Name"
+              required
+            />
+            <!-- <label for="email">Email: </label> -->
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              cols="23"
+              rows="10"
+              placeholder="message"
+              autocomplete="off"
+            ></textarea>
+            <button id="btn" type="submit">Send</button>
+          </form>
+          <!-- </section> -->
+        </section>
+      </section>
+      <!-- contact section end -->
+
+      <!-- footer section start -->
+      <footer id="footer" class="d-flex">
+        <section class="mobile">
+          <h3>Send mail :</h3>
+          <a href="mailto:zishan21830@gmail.com">zishan21830@gmail.com</a>
+
+          <h3>Call :</h3>
+          <p>+91 8433415305</p>
+        </section>
+
+        <address>
+          <h3>Address :</h3>
+          <p>Chandpur, Bijnor</p>
+          <p>246725</p>
+        </address>
+      </footer>
+      <!-- footer section end -->
+    </main>
+    <!-- JavaScript Section Start -->
+    <!-- Ion Icon CDn -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./JS/script.js"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/9f7198c825.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript Section End -->
+  </body>
+</html>
